@@ -15,8 +15,6 @@ CREATE TABLE customers (
     Country VARCHAR(255),
     ZipCode VARCHAR(10)
 );
--- make sure the file is under 'uploades in my sql server folder , u can find the correct directory using 
--- SHOW VARIABLES LIKE 'secure_file_priv'; 
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/customers.csv'
 INTO TABLE customers
